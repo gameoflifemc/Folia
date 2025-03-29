@@ -20,4 +20,4 @@ jobs:
       - uses: softprops/action-gh-release@master
         with:
           tag_name: Game of Life Folia v${{github.run_number}}
-          files: Folia/build/libs/*.jar
+          files: build/libs/folia-paperclip-*.jar
