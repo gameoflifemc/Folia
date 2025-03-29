@@ -19,5 +19,5 @@ jobs:
       - run: ./gradlew createMojmapPaperclipJar
       - uses: softprops/action-gh-release@master
         with:
-          tag_name: Game of Life Folia v${{github.run_number}}
+          tag_name: v${{github.run_number}}
           files: build/libs/folia-paperclip-*.jar
